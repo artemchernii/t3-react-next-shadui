@@ -13,15 +13,15 @@ export const metadata: Metadata = {
 const TopNav = () => {
   return (
     <div className="flex items-center justify-between">
-      <Link href={'/'} className={`${GeistSans.variable}`}>
-          T3 Gallery
+      <Link href={"/"} className={`${GeistSans.variable}`}>
+        T3 Gallery
       </Link>
 
-        <div className="flex items-center gap-2">
-          <Link href="/invoices">
-            <p className="text-sm font-semibold text-neutral-800">Invoices</p>
-          </Link>
-        </div>
+      <div className="flex items-center gap-2">
+        <Link href="/invoices">
+          <p className="text-sm font-semibold text-neutral-800">Invoices</p>
+        </Link>
+      </div>
     </div>
   );
 };
